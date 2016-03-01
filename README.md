@@ -8,17 +8,11 @@ Two examples of genetic algorithms written in Java. One uses the library JGap an
 Both examples show the Traveling Salesman Problem (TSP) with the same map:
 
     20
-    
   A————B
-  
   |\10/|
-  
 40| \/5|15
-
   | /\ |
-
   C————D
-
     10
 
 Also, the map show the distances between the cities.
@@ -36,17 +30,11 @@ Problema a resolver:
 Problema del viajante -> 4 ciudades y se sitúa en una ciudad de forma aleatoria.
 
     20
-    
   A————B
-  
   |\10/|
-
 40| \/5|15
-
   | /\ |
-
   C————D
-
     10
 
 A-B=20
