@@ -6,14 +6,8 @@ ENGLISH VERSION
 Two examples of genetic algorithms written in Java. One uses the library JGap and the other Jenetics.
 
 Both examples show the Traveling Salesman Problem (TSP) with the same map:
-<p>
-    20
-  A————B
-  |\10/|
-40| \/5|15
-  | /\ |
-  C————D
-    10
+<p align=center>
+	<img src="https://github.com/L3cr0f/Traveling-Salesman-Genetic-Algorithms/blob/master/Map.png">
 </p>
 Also, the map show the distances between the cities.
 The optimal solution is 25 with the path ADCB.
@@ -28,14 +22,8 @@ Aquí muestro dos ejemplos de algoritmos genéticos escritos en Java usando las 
 
 Problema a resolver:
 Problema del viajante -> 4 ciudades y se sitúa en una ciudad de forma aleatoria.
-<p>
-    20
-  A————B
-  |\10/|
-40| \/5|15
-  | /\ |
-  C————D
-    10
+<p align=center>
+	<img src="https://github.com/L3cr0f/Traveling-Salesman-Genetic-Algorithms/blob/master/Map.png">
 </p>
 A-B=20
 A-C=40
@@ -113,9 +101,5 @@ Inicio:
 	Fenotipo -> conjunción entre el genotipo y la función fitness
 	Población -> conjunto de fenotipos
 
-===================================================================================
-———————————————————————————————————————————————————————————————————————————————————
-———————————————————————————————————————————————————————————————————————————————————
-===================================================================================
-
-CONCLUSIÓN -> Jenetics es más sencilla a la hora de implementación que JGap, aunque esta es más fácil de entender.
+<h3>CONCLUSIÓN</h3>
+Jenetics es más sencilla a la hora de implementación que JGap, aunque esta es más fácil de entender.
