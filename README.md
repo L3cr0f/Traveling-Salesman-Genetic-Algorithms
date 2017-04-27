@@ -6,7 +6,7 @@ ENGLISH VERSION
 Two examples of genetic algorithms written in Java. One uses the library JGap and the other Jenetics.
 
 Both examples show the Traveling Salesman Problem (TSP) with the same map:
-
+<p>
     20
   A————B
   |\10/|
@@ -14,7 +14,7 @@ Both examples show the Traveling Salesman Problem (TSP) with the same map:
   | /\ |
   C————D
     10
-
+</p>
 Also, the map show the distances between the cities.
 The optimal solution is 25 with the path ADCB.
 
@@ -28,7 +28,7 @@ Aquí muestro dos ejemplos de algoritmos genéticos escritos en Java usando las 
 
 Problema a resolver:
 Problema del viajante -> 4 ciudades y se sitúa en una ciudad de forma aleatoria.
-
+<p>
     20
   A————B
   |\10/|
@@ -36,7 +36,7 @@ Problema del viajante -> 4 ciudades y se sitúa en una ciudad de forma aleatoria
   | /\ |
   C————D
     10
-
+</p>
 A-B=20
 A-C=40
 A-D=10
@@ -49,14 +49,9 @@ Solución óptima -> 25 => 75 en la función fitness desarrollada
 Codificación de los datos:
 Una cadenas -> especificando la ruta [A,B,C,D]
 
-===================================================================================
-———————————————————————————————————————————————————————————————————————————————————
-———————————————————————————————————————————————————————————————————————————————————
-===================================================================================
+<h1>JGap</h1>
 
-En JGap:
-
-Inicio:
+<h3>Inicio:</h3>
 
 - Parto de una población de 5 individuos elegidos aleatoriamente (si resulta que selecciona una ciudad repetida, vuelve a seleccionar otro destino).
 - Evoluciono la población un máximo de 5 iteraciones.
@@ -68,13 +63,11 @@ Inicio:
 
 ==================================================================
 
-Resultados:
+<h3>Resultados:</h3>
 
 - El algoritmo tarda muy poco tiempo en ejecutarse, encontrando la solución óptima 19 de cada 20 veces.
 
-==================================================================
-
-Conclusiones:
+<h3>Conclusiones:</h3>
 
 - JGap es una buena herramienta, fácil de comprender (incluye un javadoc para ver y comprender las distintas funciones), aunque algo tediosa de configurar a tus necesidades, teniendo que desarrollar tu mismo tanto la generación inicial (tienes que controlar que sea una ruta válida) como el algoritmo de crossover para el problema del "Vendedor ambulante".
 
@@ -87,12 +80,7 @@ Conclusiones:
 
 	Genotipo (población) -> guarda los cromosomas
 
-===================================================================================
-———————————————————————————————————————————————————————————————————————————————————
-———————————————————————————————————————————————————————————————————————————————————
-===================================================================================
-
-En Jenetics:
+<h1>En Jenetics</h1>
 
 Inicio:
 
@@ -110,12 +98,12 @@ Inicio:
 
 ==================================================================
 
-Resultados:
+<h3>Resultados:</h3>
 - El algoritmo tarda muy poco en ejecutarse y encuentra la solución prácticamente en el 100% de los casos. 
 
 ==================================================================
 
-Conclusiones:
+<h3>Conclusiones:</h3>
 - Jenetics es otra buena librería para el desarrollo de algoritmos genéticos. Resulta algo complicada de entender (estructura, funciones…), aún disponiendo de javadoc y de una guía. Lo mejor es su facilidad a la hora de desarrollar cualquier algoritmo para cualquier problema, ya que el tiempo que tienes que dedicar a la programación es básicamente testimonial.
 
 - La estructura que sigue es la siguiente:
